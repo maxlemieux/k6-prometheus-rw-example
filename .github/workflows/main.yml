@@ -24,4 +24,4 @@ jobs:
           K6_PROMETHEUS_RW_SERVER_URL: ${{ secrets.K6_PROMETHEUS_RW_SERVER_URL }}
         with:
           path: test.js
-          flags: --output experimental-prometheus-rw
+          flags: --out experimental-prometheus-rw
