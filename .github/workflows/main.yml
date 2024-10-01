@@ -25,4 +25,4 @@ jobs:
         with:
           path: test.js
           cloud-run-locally: false
-          flags: --out experimental-prometheus-rw
+#          flags: --out experimental-prometheus-rw
