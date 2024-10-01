@@ -24,4 +24,5 @@ jobs:
           K6_PROMETHEUS_RW_SERVER_URL: ${{ secrets.K6_PROMETHEUS_RW_SERVER_URL }}
         with:
           path: test.js
+          cloud-run-locally: false
           flags: --out experimental-prometheus-rw
