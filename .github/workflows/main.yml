@@ -23,6 +23,6 @@ jobs:
           K6_PROMETHEUS_RW_PASSWORD: ${{ secrets.K6_PROMETHEUS_RW_PASSWORD }}
           K6_PROMETHEUS_RW_SERVER_URL: ${{ secrets.K6_PROMETHEUS_RW_SERVER_URL }}
         with:
-          path: test.js
+          path: test-ramp.js
           cloud-comment-on-pr: true
           flags: --out experimental-prometheus-rw
